@@ -1,0 +1,19 @@
+# TruthLens — Python dependencies
+# Install: pip install -r requirements.txt
+
+# Web framework
+flask==3.0.3
+flask-cors==4.0.1
+
+# Anthropic Claude AI
+anthropic>=0.30.0
+
+# ML & NLP
+scikit-learn==1.5.1
+numpy==1.26.4
+pandas==2.2.2
+nltk==3.8.1          # optional: for stemming/stop-word removal
+
+# Dev / testing
+pytest==8.2.2
+python-dotenv==1.0.1  # for loading ANTHROPIC_API_KEY from .env
