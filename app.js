@@ -181,7 +181,7 @@ Respond ONLY with valid JSON.
 async function callClaudeAPI(prompt) {
 
   // Paste your Groq API key here
-  const API_KEY = "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";
+  const API_KEY = "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";
 
   const resp = await fetch(
     "https://api.groq.com/openai/v1/chat/completions",
